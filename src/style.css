@@ -1,0 +1,123 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-image: url('https://source.unsplash.com/1600x900/?');
+}
+.card {
+    margin: 1rem;
+    margin-left: 15rem;
+    padding: 4px 18px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+    background-color: #a2e0f4b5;
+    width: 55%;
+}
+.answer {
+    color: white;
+    margin-top: .05rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.filter {
+    margin-left: 15rem;
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+    width: 55%;
+    background-color: #f59c02;
+}
+.button {
+    display: flex;
+    margin: .5rem;
+    column-gap: 1rem;
+}
+.delete {
+    background-color: rgba(220, 77, 21, 0.714);;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.like {
+    background-color: #a2e0f400;
+    border-radius: 4px;
+    cursor: pointer;
+    border: #a2e0f400;
+}
+.disLike {
+    background-color: #a2e0f400;
+    border-radius: 4px;
+    cursor: pointer;
+    border: #a2dff4d6;
+}
+.nav {
+    padding:  20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    width: 100%;
+    background-color: #f59c02;
+}
+.navHome,.navForm,.aboutBtn,.select {
+    background-color: #f59c02;
+    color: white;
+    cursor: pointer;
+    
+}
+.form {
+    margin: 2rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #a2e0f4b5;
+    border-radius: 1em;
+    margin-bottom: 100rem;
+}
+.about {
+    margin: 3rem;
+    margin-bottom: 100rem;
+    text-indent: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+    background-color: #a2e0f4b5;
+    width: 45%;
+}
+.jokeAddForm {
+    margin: 3rem;
+    margin-top: 5px;
+    min-width: 500px;
+    padding: 4px 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.setupLabel {
+    padding: 4px 10px;
+}
+.punchlineLabel {
+    padding: 4px 10px;
+}
+.setupInput {
+    padding: 3px 10px;
+    min-width: 200px;
+    border-radius: 4px;
+}
+.punchlineInput {
+    padding: 3px 10px;
+    min-width: 200px;
+    border-radius: 4px;
+}
+.submit {
+    margin: 1rem;
+    padding: 3px 10px;
+    background-color: rgb(31, 228, 13);
+    border-radius: 4px;
+    cursor: pointer;
+}
